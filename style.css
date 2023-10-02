@@ -1,0 +1,98 @@
+nav{
+    /* for nab bar sticky  */
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.vertical-line{
+    border-left: 1px solid #f2f2f2;
+    height: 80px;
+}
+.location>h5{
+    font-weight: 900;
+}
+.location>p{
+    font-size: 13px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #f2f2f2;
+}
+.search-bar{
+   
+    background-color: #f8f8f8;
+    margin: 20px;
+    border: 1px solid #f2f2f2 ;
+    padding-inline: 10px;
+    border-radius: 10px;
+    height: 3vw;
+   
+}
+.search-bar>input{
+    border: none;
+    background: transparent;
+    padding: 5px;
+    width: 30vw;
+}
+.login{
+    border: none;
+    width: 10vw;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 4vw;
+    padding-inline: 10px;
+    margin-top: 1vw;
+    
+}
+.my-cart{
+    border: none;
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #0c831f;
+    height: 4vw;
+    margin: 1vw;
+    margin-right: 2vw;
+    color: white;
+    font-weight: 700;
+}
+#here-section>{
+    background-color: red;
+    
+}
+#categories-1{
+  padding: auto;
+  margin: 40px;
+    justify-content: space-around;
+}
+.catagories{
+   margin: 1vw;
+   width: 96vw;
+    justify-content: space-between;
+}
+.catagories>div{
+    /* white space for the making on one line of all div element without any contraction */
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{ 
+    /* ::-webkit-scrollbar for access all scrole bar */
+    /* for the not show scrollbar down to list image */
+    display: none;
+}
+.catagories>div>img{
+    display: inline-block;
+    margin: 10px;
+
+}
+.item{
+    width: 10vw;
+   
+}
+.item>button{
+    border-radius: 10px important;
+}
+.item{
+    display: flex;
+}
